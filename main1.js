@@ -26,7 +26,7 @@ const posArray = new Float32Array(particleCnt * 3);
 
 for(let i = 0 ; i < particleCnt*3 ; i++)
 {
-  posArray[i] = (Math.random() - 0.5) * 1000;
+  posArray[i] = (Math.random() - 0.5) * 2000;
 }
 
 particleGeometry.setAttribute('position', new THREE.BufferAttribute(posArray,3));
@@ -85,7 +85,7 @@ const tick = () =>{
 
   //update object
   // sphere.ro
-  particle.rotation.x += .002;
+  particle.rotation.x += .0005;
 
   renderer.render(scene,camera);
 

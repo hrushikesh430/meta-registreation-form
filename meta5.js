@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import { Sphere } from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
-const canvas = document.getElementById("bg-three")
+const canvas = document.getElementById("bg-five")
 canvas.style.zIndex = 4
 const renderer = new THREE.WebGLRenderer({canvas,alpha:true});
 renderer.setSize( window.innerWidth, window.innerHeight );

@@ -52,11 +52,13 @@
         <h1 class="content-title-style">Docker</h1>
       </div>
       <div class="content-container">
-    <div class="subContent">
-      <p class="text-content">This comprehensive Docker course is designed for beginners and will take you from scratch to an expert level. The course includes hands-on projects, starting with the basics of Docker and progressing to advanced topics. You will learn how to package and run your application in an isolated containerized environment, how to create and manage containers, and how to build and share your own images. You will learn about key concepts of container orchestration such as service discovery, scaling, linking containers, and managing multiple containers with docker-compose. By the end of the course, you will have a solid understanding of Docker and the skills needed to work with it in a production environment.</p>
-    </div>
-  </div>
+        <canvas id="bg-three"></canvas>
+        <div class="subContent">
+          <p class="text-content">This comprehensive Docker course is designed for beginners and will take you from scratch to an expert level. The course includes hands-on projects, starting with the basics of Docker and progressing to advanced topics. You will learn how to package and run your application in an isolated containerized environment, how to create and manage containers, and how to build and share your own images. You will learn about key concepts of container orchestration such as service discovery, scaling, linking containers, and managing multiple containers with docker-compose. By the end of the course, you will have a solid understanding of Docker and the skills needed to work with it in a production environment.</p>
+        </div>
+      </div>
       <div class="content">
+    
         
         <canvas id="Mybg"></canvas>
         <div class="first">
@@ -73,31 +75,32 @@
           <span class="box4">
             
           </span>
-     
-            </div>
- 
+          
+        </div>
+        
       </div>
-    
+      
     </div>
     <!-- go Lang  -->
     <div class="dockerContianer" id="secondContainer" >
       
+      <canvas id="bg-five"></canvas>
       <div class="dockerImg">
         <canvas id="bg-two"></canvas>
         <img src="go1.png" alt=""  class="img-docker">
       </div>
-        <div class="content-title">
-          <h1 class="content-title-style">Go Lang</h1>
-        </div>
-        <div class="content-container">
+      <div class="content-title">
+        <h1 class="content-title-style">Go Lang</h1>
+      </div>
+      <div class="content-container">
         <div class="subContent">
           <p class="text-content">Learn Go programming from the ground up and build real-world projects along the way. This beginner-friendly course starts with the basics of Go and progresses to advanced topics and hands-on projects. You will learn the fundamental concepts of Go programming, including data types, control structures, and functions, and then apply your knowledge to build projects such as a web server, a simple web app, and more. Whether you're new to programming or looking to expand your skills, this course will give you the foundation you need to become proficient in Go.</p>
+          </div>
         </div>
-        </div>
-
+        
         <div class="content">
-          <canvas id="bg-three"></canvas>
-          <div class="first">
+        <canvas id="bg-four"></canvas>
+        <div class="first">
             <span class="box1">
               
             </span>
@@ -112,25 +115,30 @@
               
             </span>
             
-              </div>
-            </div>
-            <hr class="line"/>
-            <!-- reegistration form -->
+          </div>
+        </div>
+        <hr class="line"/>
+        <!-- reegistration form -->
             <div class="register-container">         
-            <!-- <canvas id="bg-four"></canvas> -->
             <form>
               <h3 style="color: white;" class="register-title">Register Now</h3>
       
               <label for="username">Full Name</label>
-              <input type="text" placeholder="Name" id="username">
+              <input type="text" placeholder="Name" class="username">
               <label for="username">Email</label>
-              <input type="text" placeholder="Email" id="username">
+              <input type="text" placeholder="Email" class="username">
               <label for="username">College Name</label>
-              <input type="text" placeholder="WCE" id="username">
-<!--       
-              <label for="password">Password</label>
-              <input type="password" placeholder="Password" id="password">
-       -->
+              <input type="text" placeholder="WCE" class="username">             
+               <label for="username">Contact No.</label>
+              <input type="text" placeholder="Contact Number" class="username">
+              <label for="cars" class="username">Year of Studying:</label>
+
+                  <select name="cars" id="cars">
+                    <option value="volvo">1st Year</option>
+                    <option value="saab">2nd Year</option>
+                    <option value="mercedes">3rd Year</option>
+                    <option value="audi">4th Year</option>
+                  </select>
               <button class="registerBtn">Register</button>
               <!-- <div class="social">
                 <div class="go"><i class="fab fa-google"></i>  Google</div>
@@ -174,6 +182,7 @@
      <script src="./main1.js" type="module"></script>
      <script src="./main3.js" type="module"></script>
      <script src="./main4.js" type="module"></script>
+     <script src="./main5.js" type="module"></script>
 
      <script src="./meta2.js" type="module"></script>
 
