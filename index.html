@@ -180,7 +180,7 @@
         <hr class="line"/>
         <!-- reegistration form -->
             <div class="register-container">         
-            <form>
+            <form class="reg-form">
               <h3 style="color: white;" class="register-title">Register Now</h3>
       
               <label for="username">Full Name</label>
@@ -193,11 +193,26 @@
               <input type="text" placeholder="Contact Number" class="username">
               <label for="cars" class="username">Year of Studying:</label>
 
-                  <select name="cars" id="cars" class="username" style="color: black;">
-                    <option value="volvo"  class="username" style="color:black">1st Year</option>
-                    <option value="saab"  class="username" style="color:black">2nd Year</option>
-                    <option value="mercedes"  class="username" style="color:black">3rd Year</option>
-                    <option value="audi"  class="username" style="color:black">4th Year</option>
+                  <select class="select-me" name="cars" id="cars">
+                    <option class="option" value="volvo">1st Year</option>
+                    <option value="saab">2nd Year</option>
+                    <option value="mercedes">3rd Year</option>
+                    <option value="audi">4th Year</option>
+
+
+                  </select>
+
+                <label for="cars" class="username">Your Choice:</label>
+                  <select class="select-me" name="cars" id="cars">
+                    <option value="go">Go</option>
+                    <option value="docker">Docker</option>
+                    <option value="both">Both</option>
+                  </select>
+
+                  <label for="cars" class="username">Do you have dual booted laptops?:</br>(Not Mandatory)</label>
+                  <select class="select-me" name="cars" id="cars">
+                    <option value="go">Yes</option>
+                    <option value="docker">No</option>
                   </select>
               <button class="registerBtn">Register</button>
               <!-- <div class="social">
