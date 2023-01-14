@@ -185,11 +185,12 @@ form{
 .menu-nav {
     color: white;
     display: flex;
+
 }
 
 @media (max-width:576px) {
     .menu-nav {
-        display: none;
+        /* display: none; */
     }
 }
 
@@ -786,7 +787,7 @@ span {
 }
 
 .container-register {
-  width: 33px;
+  /* width: 33px; */
   margin: 0 auto;
   position: absolute;
  
@@ -832,7 +833,7 @@ h2 {
   text-align: center;
   cursor: pointer;
   width: 160px;
-  height: 45px;
+  /* height: 45px; */
   background-color: rgb(140, 30, 255,0);
   border-width: .1px;
   border-style: solid;
@@ -1240,7 +1241,7 @@ button{
   }
   .three{
     width: 140px;
-    height: 40px;
+    /* height: 40px; */
     margin-left: -80%;
   }
   .a_register{
@@ -1280,7 +1281,7 @@ button{
 
 
   .container-register{
-    width: 400px;
+    /* width: 400px; */
   }
   .img-docker{
     width: 400px;
@@ -1395,15 +1396,15 @@ button{
 
   .three{
     width: 90px;
-    height: 20px;
-    text-align: center;
-    margin-left: -10px;
+    /* height: 20px; */
+    /* text-align: center; */
+    /* margin-left: -10px; */
     /* background-color: red; */
   }
 
   .container-register{
     /* margin-left: -20px; */
-    width: 80px;
+    /* width: 80px; */
   }
   .img-docker{
     width: 400px;
