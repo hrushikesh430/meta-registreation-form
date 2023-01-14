@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto+Slab&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Karla:wght@300&family=Roboto+Mono:wght@200&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Roboto+Mono:wght@200&family=Roboto+Slab&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -489,6 +491,7 @@ span {
          background-color:rgb(140, 30, 255,0.1);
          color: white;
          height:7rem;
+         
          border-radius: 0.8rem;
          /* margin: 1rem; */
          margin:auto ;
@@ -497,8 +500,8 @@ span {
          font-family: 'Montserrat', sans-serif;
          font-size: 0.9rem;
          box-shadow: 1rem;
-         margin-top: -10rem;
-         
+         margin-top: 2rem;
+         margin-bottom: 2rem;
      }
      footer a{
          color: white;
@@ -593,13 +596,15 @@ span {
           #6b1839,
           transparent
         ); */
+        
         transform: translate(-50%, -50%);
         letter-spacing: 2;
         left: 50%;
         top: 50%;
-        font-family: "Clip";
+        /* font-family: "Clip"; */
+        font-family: 'Karla', sans-serif;  
         text-transform: uppercase;
-        font-size: 4em;
+        font-size: 4rem;
         color: white;
         /* text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
           -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
@@ -789,7 +794,7 @@ span {
   width: 33px;
   margin: 0 auto;
   position: absolute;
- 
+  
   text-align: center;
   /* right: 0; */
   -webkit-transform: translateY(-50%);
@@ -1083,7 +1088,7 @@ h2 {
   margin-bottom: 40px;
   margin: auto;
   font-size: 1.5rem;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Inconsolata', monospace;
   
   /* font-weight: bold  ; */
 }
@@ -1146,7 +1151,7 @@ body{
     bottom: -80px;
 }
 form{
-    height: 520px;
+    height: 700px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
@@ -1192,6 +1197,26 @@ input{
 }
 ::placeholder{
     color: #e5e5e5;
+}
+.content-title-style{
+  font-family: 'Karla', sans-serif;
+   font-size: 4.5rem;
+  font-style: bold;
+
+    color: white;
+}
+.line{
+  width: 100%; height: 2px; margin-left: auto; margin-right: auto; margin-top: 100px;background-color: white; opacity: 100%;
+}
+.icon-title{
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.icons{
+  width: 200px;
+  height: 200px;
 }
 button{
     margin-top: 50px;
@@ -1257,7 +1282,23 @@ button{
     /* margin-top: -100px; */
     width: 800px;
   }
+  .icon-title{
+    font-size: 1rem;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 100px;
+    margin-right: auto;
+  }
   .box1{
+    position: relative;
+    display: block;
+    /* flex-direction: column; */
+    /* background-color: rebeccapurple; */
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
     width: 240px;
     height: 200px;
   }
@@ -1289,7 +1330,7 @@ button{
     width: 100px;
   }
   .sign{
-    font-size: 2rem;
+    font-size: 4rem;
     /* background-color: red; */
   }
   .subContent{
@@ -1317,6 +1358,15 @@ button{
 }
 
 @media screen and (max-width:850px) {
+  .icons{
+    width: 130px;
+    /* background-color: red; */
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   .main-container{
     width: 850px;
     display: block;
@@ -1416,6 +1466,9 @@ button{
     font-size: 1.25rem;
     /* background-color: red; */
   }
+  .content-title-style{
+    font-size: 3rem;
+  }
   .subContent{
     width: 100%;
     height: 40%;
@@ -1454,7 +1507,7 @@ button{
     /* background-color: red; */
   }
   .content-title-style{
-    font-size: .2rem;
+    font-size: 2.2rem;
   }
   .register-container{
     width: 10px;
@@ -1479,7 +1532,7 @@ button{
   }
   form{
     width: 270px;
-    height: 550px;
+    height: 500px;
   }
   footer{
     width: 100%;
@@ -1501,15 +1554,11 @@ button{
   }
   input{
     height: 30px;
-    font-size: 1rem;
+    font-size: 2rem;
   }
+  .username{
+    font-size: 0.7rem;
+  }
+ 
 }
 
-.content-title-style{
-  font-family: 'Roboto Slab', serif;
-   font-size: 2.2rem;
-    color: white;
-}
-.line{
-  width: 100%; height: 2px; margin-left: auto; margin-right: auto; margin-top: 100px;background-color: white; opacity: 100%;
-}
