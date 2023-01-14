@@ -35,6 +35,9 @@ particleGeometry.setAttribute('position', new THREE.BufferAttribute(posArray,3))
 // materials
 
 const material = new THREE.PointsMaterial({
+  map: new THREE.TextureLoader().load('./particle.jpg'),
+  transparent: true,
+	blending: THREE.AdditiveBlending,
   size:0.65,
   color:0xffffff
 })
