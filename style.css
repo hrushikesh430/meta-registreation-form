@@ -971,7 +971,8 @@ h2 {
     /* box-shadow:  0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 15px 0px #e26fe6;; */
     border-width: 1px;
     margin-right: 2px;
-    background-color: #0B0028;
+    background-color: #0b0028ad;
+
     z-index: 100;
 
 
@@ -990,7 +991,7 @@ h2 {
     margin-inline: 30px;
     margin-left: 50px;
     border-style: solid;
-    background-color: #0B0028;
+    background-color: #0b0028ad;
     z-index: 100;
     border-radius: 10px;
     /* border-color:  rgb(202, 72, 219); */
@@ -1014,7 +1015,8 @@ h2 {
     margin-left: 50px;
     border-style: solid;
     border-radius: 10px;
-    background-color: #0B0028;
+    background-color: #0b0028ad;
+
     z-index: 100;
     /* border-color:  rgb(202, 72, 219); */
     /* box-shadow:  0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 15px 0px #e26fe6;; */
@@ -1026,7 +1028,8 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: #0B0028;
+  background-color: #0b0028ad;
+
   z-index: 100;
     /* background-color: red; */
     /* background-color: rgba(9, 43, 66, 0.404); */
@@ -1478,20 +1481,22 @@ button{
     margin: auto;
   }
   .three{
+    padding: 0;
     width: 70px;
     position: relative;
-    height: 10px;
+    height: 30px;
+
     display: inline-block;
     justify-content:center;
     align-items: center;
-    text-align: center
-    ;
+    text-align: center;
     /* text-align: center; */
     /* margin-left: -10px; */
     /* background-color: red; */
   }
 
   .container-register{
+    padding: 0;
     /* margin-left: -20px; */
     /* width: 80px; */
     /* height: 40px; */
@@ -1612,6 +1617,14 @@ button{
   .select-me
   {
     font-size: 1.3rem;
+  }
+  .registerBtn{
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center  ;
+    /* background-color: red; */
   }
  
 }
