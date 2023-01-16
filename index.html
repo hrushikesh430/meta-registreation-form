@@ -44,9 +44,75 @@
         
       </div>
     </nav>
+    <!-- GoLang  -->
+    <div class="dockerContianer" >
+      
+      <canvas id="bg-five"></canvas>
+      <div class="dockerImg">
+        <canvas id="bg-two"></canvas>
+        <img src="go1.png" alt=""  class="img-docker">
+      </div>
+      <div class="content-title">
+        <h1 class="content-title-style">Go Lang</h1>
+      </div>
+      <div class="content-container">
+        <div class="subContent">
+          <p class="text-content">Learn Go programming from the ground up and build real-world projects along the way. This beginner-friendly course starts with the basics of Go and progresses to advanced topics and hands-on projects. You will learn the fundamental concepts of Go programming, including data types, control structures, and functions, and then apply your knowledge to build projects such as a web server, a simple web app, and more. Whether you're new to programming or looking to expand your skills, this course will give you the foundation you need to become proficient in Go.</p>
+          </div>
+        </div>
+        
+        <div class="content">
+        <canvas id="bg-four"></canvas>
+        <div class="first">
+            <span class="box1">
+              
+              <lord-icon
+              src="https://cdn.lordicon.com/ucwzcdby.json"
+              trigger="hover"
+              colors="primary:#200075"
+              class="icons">
+              <!-- <p>thishsi</p> -->
+            </lord-icon>
+            <p class="icon-title">Introduction to GoLang</p>
+            </span>
+            <span class="box2">
+              <lord-icon
+              src="https://cdn.lordicon.com/pwtxdzer.json"
+              trigger="hover"
+              colors="primary:#200075,secondary:#200075,tertiary:#200075,quaternary:#b800b4"
+              class="icons">
+              
+            </lord-icon>
+            <p class="icon-title">Data Variables and<br> Functions</p>
+            </span>
+          
+            <span class="box3">
+              <lord-icon
+    src="https://cdn.lordicon.com/pjibjvxa.json"
+    trigger="hover"
+    colors="primary:#200075,secondary:#b800b4,tertiary:#200075"
+    class="icons">
     
-    <!-- Go lang -->
-    <div class="dockerContianer">
+  </lord-icon>
+  <p class="icon-title">Testing and GoRoutines</p>
+            </span>
+            <span class="box4">
+              <lord-icon
+    src="https://cdn.lordicon.com/qbaenubu.json"
+    trigger="hover"
+    colors="primary:#b800b4,secondary:#200075"
+    class="icons">
+    
+  </lord-icon>
+  <p class="icon-title">Setting up a GoLang Application</p>
+            </span> 
+            </div>
+            
+          </div>
+        </div>
+    
+    <!-- Docker -->
+    <div class="dockerContianer" id="secondContainer">
       <div class="dockerImg">
         <img src="docker-container.png" alt=""  class="img-docker">
       </div>
@@ -114,71 +180,11 @@
       </div>
       
     </div>
+
+
+
     <!-- go Lang  -->
-    <div class="dockerContianer" id="secondContainer" >
-      
-      <canvas id="bg-five"></canvas>
-      <div class="dockerImg">
-        <canvas id="bg-two"></canvas>
-        <img src="go1.png" alt=""  class="img-docker">
-      </div>
-      <div class="content-title">
-        <h1 class="content-title-style">Go Lang</h1>
-      </div>
-      <div class="content-container">
-        <div class="subContent">
-          <p class="text-content">Learn Go programming from the ground up and build real-world projects along the way. This beginner-friendly course starts with the basics of Go and progresses to advanced topics and hands-on projects. You will learn the fundamental concepts of Go programming, including data types, control structures, and functions, and then apply your knowledge to build projects such as a web server, a simple web app, and more. Whether you're new to programming or looking to expand your skills, this course will give you the foundation you need to become proficient in Go.</p>
-          </div>
-        </div>
-        
-        <div class="content">
-        <canvas id="bg-four"></canvas>
-        <div class="first">
-            <span class="box1">
-              
-              <lord-icon
-              src="https://cdn.lordicon.com/ucwzcdby.json"
-              trigger="hover"
-              colors="primary:#200075"
-              class="icons">
-              <!-- <p>thishsi</p> -->
-            </lord-icon>
-            <p class="icon-title">Introduction to GoLang</p>
-            </span>
-            <span class="box2">
-              <lord-icon
-              src="https://cdn.lordicon.com/pwtxdzer.json"
-              trigger="hover"
-              colors="primary:#200075,secondary:#200075,tertiary:#200075,quaternary:#b800b4"
-              class="icons">
-              
-            </lord-icon>
-            <p class="icon-title">Data Variables and<br> Functions</p>
-            </span>
-          
-            <span class="box3">
-              <lord-icon
-    src="https://cdn.lordicon.com/pjibjvxa.json"
-    trigger="hover"
-    colors="primary:#200075,secondary:#b800b4,tertiary:#200075"
-    class="icons">
-    
-  </lord-icon>
-  <p class="icon-title">Testing and GoRoutines</p>
-            </span>
-            <span class="box4">
-              <lord-icon
-    src="https://cdn.lordicon.com/qbaenubu.json"
-    trigger="hover"
-    colors="primary:#b800b4,secondary:#200075"
-    class="icons">
-    
-  </lord-icon>
-  <p class="icon-title">Setting up a GoLang Application</p>
-            </span> 
-            
-          </div>
-        </div>
+   
         <hr class="line"/>
         <!-- reegistration form -->
             <div class="register-container" id="register">         
@@ -204,17 +210,17 @@
 
                   </select>
 
-                <label for="cars" class="username">Your Choice:</label>
-                  <select class="select-me" name="cars" id="cars">
+                <label for="cars" class="username optionText" >Your Choice:</label>
+                  <select class="select-me" name="cars" class="cars">
                     <option value="go">Go</option>
                     <option value="docker">Docker</option>
                     <option value="both">Both</option>
                   </select>
 
                   <label for="cars" class="username">Do you have dual booted laptops?:</br>(Not Mandatory)</label>
-                  <select class="select-me" name="cars" id="cars">
-                    <option value="go">Yes</option>
-                    <option value="docker">No</option>
+                  <select class="select-me" name="cars" class="cars">
+                    <option value="go" class="optionText">Yes</option>
+                    <option value="docker" class="optionText">No</option>
                   </select>
               <button class="registerBtn">Register</button>
               <!-- <div class="social">

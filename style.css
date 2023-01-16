@@ -139,6 +139,9 @@ form{
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
   border-radius: 0.3rem;
   margin-right: auto;
 }
@@ -968,6 +971,8 @@ h2 {
     /* box-shadow:  0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 15px 0px #e26fe6;; */
     border-width: 1px;
     margin-right: 2px;
+    background-color: #0B0028;
+    z-index: 100;
 
 
 }
@@ -985,6 +990,8 @@ h2 {
     margin-inline: 30px;
     margin-left: 50px;
     border-style: solid;
+    background-color: #0B0028;
+    z-index: 100;
     border-radius: 10px;
     /* border-color:  rgb(202, 72, 219); */
     /* box-shadow:  0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 15px 0px #e26fe6;; */
@@ -1007,6 +1014,8 @@ h2 {
     margin-left: 50px;
     border-style: solid;
     border-radius: 10px;
+    background-color: #0B0028;
+    z-index: 100;
     /* border-color:  rgb(202, 72, 219); */
     /* box-shadow:  0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 15px 0px #e26fe6;; */
     border-width: 1px;
@@ -1017,6 +1026,8 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: #0B0028;
+  z-index: 100;
     /* background-color: red; */
     /* background-color: rgba(9, 43, 66, 0.404); */
     border-style: solid;
@@ -1395,13 +1406,7 @@ button{
     /* margin: auto; */
   }
 
-  .a_register{
-    font-size: 0.7rem;
-    /* background-color: red; */
-    display: block;
-    margin: auto;
-    /* margin-bottom: 60px; */
-  }
+
   .logo-meta-style{
     height: 60px;
     width: 60px;
@@ -1414,7 +1419,7 @@ button{
     display: table;
     margin-top: 40px;
     margin-bottom: 120px;
-    /* justify-content: center; */
+    /* justify-content: center;   */
     align-items: center;
     width: 300px;
     height: 500px;
@@ -1424,6 +1429,8 @@ button{
     /* display: table-column; */
     display: block;
    margin-left: auto;
+   background-color: #0B0028;
+   z-index: 100;
    margin-right: auto;
     width: 200px;
     height: 200px;
@@ -1432,6 +1439,8 @@ button{
     display: block;
    margin-left: auto;
    margin-right: auto;
+   background-color: #0B0028;
+   z-index: 100;
    width: 200px;
    height: 200px;
   }
@@ -1440,6 +1449,8 @@ button{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: #0B0028;
+    z-index: 100;
     width: 200px;
     height: 200px;
   }
@@ -1448,16 +1459,33 @@ button{
    margin-left: auto;
    margin-right: auto;
    width: 200px;
+   background-color: #0B0028;
+   z-index: 100;
    height: 200px;
   }
   
   /* .a_register{
     margin-left: -10px;
   } */
-
+  .a_register{
+    font-size: 0.67rem;
+    /* background-color: red; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top:-900px; */
+    margin: auto;
+  }
   .three{
     width: 70px;
-    height: 20px;
+    position: relative;
+    height: 10px;
+    display: inline-block;
+    justify-content:center;
+    align-items: center;
+    text-align: center
+    ;
     /* text-align: center; */
     /* margin-left: -10px; */
     /* background-color: red; */
@@ -1469,6 +1497,13 @@ button{
     /* height: 40px; */
     /* background-color: red; */
   }
+  .optionText{
+    font-size: .6rem;
+  }
+  option{
+    font-size: .6rem;
+  }
+  
   .img-docker{
     width: 400px;
     height: 140px;
@@ -1517,7 +1552,7 @@ button{
     margin-top: 20px;
   }
   #secondContainer{
-    margin-top: 150px;
+    /* margin-top: 50px; */
     /* background-color: red; */
   }
   .content-title-style{
@@ -1573,6 +1608,10 @@ button{
   }
   .username{
     font-size: 0.7rem;
+  }
+  .select-me
+  {
+    font-size: 1.3rem;
   }
  
 }
