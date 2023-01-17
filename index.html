@@ -211,17 +211,22 @@
                   </select>
 
                 <label for="cars" class="username optionText" >Your Choice:</label>
-                  <select class="select-me" name="cars" class="cars">
+                  <select class="select-me" id="topic" name="cars" class="cars" onchange="fun();">
                     <option value="go">Go</option>
                     <option value="docker">Docker</option>
                     <option value="both">Both</option>
                   </select>
+                  <div id="qrImage">
+                    <img src="mainDocker.png" class="qr-style"/>
+                  </div>
 
                   <label for="cars" class="username">Do you have dual booted laptops?:</br>(Not Mandatory)</label>
                   <select class="select-me" name="cars" class="cars">
                     <option value="go" class="optionText">Yes</option>
                     <option value="docker" class="optionText">No</option>
                   </select>
+                  <label for="username">Reference Id</label>
+                  <input type="text" placeholder="Reference Id" class="username">             
               <button class="registerBtn">Register</button>
               <!-- <div class="social">
                 <div class="go"><i class="fab fa-google"></i>  Google</div>
@@ -271,5 +276,26 @@
 
 
      <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+     <script>
+      function fun(){
+         let opt = document.getElementById('topic').value;
+         if(opt === 'docker')
+         {
+            let img = document.getElementById('qrImage');
+            img.innerHTML = `<img src="mainDocker.png" class="qr-style"/>`
+            
+         }
+         else  if(opt === 'go')
+         {
+          let img = document.getElementById('qrImage');
+            img.innerHTML = `<img src="qr.png" class="qr-style"/>`
+         }
+         else
+         {
+          let img = document.getElementById('qrImage');
+            img.innerHTML = `<img src="go1.png" class="qr-style"/>`
+         }
+        }
+     </script>
 </body>
 </html>
