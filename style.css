@@ -917,6 +917,8 @@ h2 {
 .img-docker{
   display: block;
   margin-left: auto;
+  z-index: 110;
+
   margin-right: auto;
   /* align-items: center; */
 }
@@ -1345,6 +1347,8 @@ button{
     /* width: 400px; */
   }
   .img-docker{
+    z-index: 110;
+
     width: 400px;
   }
   .dockerImg{
@@ -1472,6 +1476,7 @@ button{
   } */
   .a_register{
     font-size: 0.67rem;
+    margin: 0;
     /* background-color: red; */
     display: block;
     justify-content: center;
@@ -1482,10 +1487,13 @@ button{
   }
   .three{
     padding: 0;
+    margin: 0;
+    
     width: 70px;
     position: relative;
     height: 30px;
-
+    margin-left: -25px;
+    margin-top: -200px;
     display: inline-block;
     justify-content:center;
     align-items: center;
@@ -1496,6 +1504,7 @@ button{
   }
 
   .container-register{
+    margin: 0;
     padding: 0;
     /* margin-left: -20px; */
     /* width: 80px; */
@@ -1511,11 +1520,13 @@ button{
   
   .img-docker{
     width: 400px;
-    height: 140px;
+    height: 240px;
+    z-index: 110;
+
   }
   .dockerImg{
     width: 200px;
-    height: 350px;
+    height: 400px;
   }
   .sign{
     font-size: 1.25rem;
@@ -1558,6 +1569,7 @@ button{
     margin-top: 20px;
   }
   #secondContainer{
+    margin-bottom: 200px;
     /* margin-top: 50px; */
     /* background-color: red; */
   }
@@ -1569,6 +1581,7 @@ button{
     margin-top: 40px;
     height: 100px;
     font-size: 2rem;
+    /* background-color: red; */
     /* visibility: hidden; */
   }
   .username{
