@@ -102,11 +102,15 @@ form{
   height: 100%;
 }
 .reg-form{
-  height: 1000px !important;
+  height: 1200px !important;
+  margin-top: 200px;
+  /* margin-bottom: 300px; */
+  width: 30rem;
 }
 @media (max-width:800px) {
   .reg-form{
     margin-top: 500px;
+    width: 20rem;
   }
 }
 .option{
@@ -136,13 +140,13 @@ input{
 .registerBtn{
   margin-top: 50px;
   width: 140px;
-  /* height: 45px; */
+  height: 65px;
   display: block;
   margin-left: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: black;
   font-weight: bold;
   border-radius: 0.3rem;
@@ -163,6 +167,7 @@ input{
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 250px;
   /* background-color: red; */
 }
 @media (max-width:800px) {
@@ -900,7 +905,7 @@ h2 {
   width: 90%;
   display: block;
   margin-left: auto;
-
+  /* margin-bottom: 100px; */
   margin-right: auto;
   justify-content: center;
   align-items: center;
@@ -1237,7 +1242,7 @@ input{
     color: white;
 }
 .line{
-  width: 100%; height: 2px; margin-left: auto; margin-right: auto; margin-top: 100px;background-color: white; opacity: 100%;
+  width: 100%; height: 2px; margin-left: auto; margin-right: auto; margin-top: 150px;background-color: white; opacity: 100%;
 }
 .icon-title{
   font-size: 1rem;
@@ -1439,7 +1444,7 @@ button{
   .first{
     display: table;
     margin-top: 40px;
-    margin-bottom: 120px;
+    margin-bottom: 140px;
     /* justify-content: center;   */
     align-items: center;
     width: 300px;
@@ -1595,8 +1600,8 @@ button{
   }
   .register-container{
     width: 10px;
-    margin-top: 40px;
-    height: 100px;
+    margin-top: 60px;
+    height: 200px;
     font-size: 2rem;
     /* background-color: red; */
     /* visibility: hidden; */
