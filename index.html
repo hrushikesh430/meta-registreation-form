@@ -187,46 +187,46 @@
    
         <hr class="line"/>
         <!-- reegistration form -->
-            <div class="register-container" id="register">         
-            <form class="reg-form">
+            <div class="register-container" id="register">  
+            <form class="reg-form" action="https://metawebsite.onrender.com/api/v1/users/signup" method="POST">
               <h3 style="color: white;" class="register-title">Register Now</h3>
       
               <label for="username">Full Name</label>
-              <input type="text" placeholder="Name" class="username">
+              <input name="name" type="text" placeholder="Name" class="username">
               <label for="username">Email</label>
-              <input type="text" placeholder="Email" class="username">
+              <input name="email" type="text" placeholder="Email" class="username">
               <label for="username">College Name</label>
-              <input type="text" placeholder="WCE" class="username">             
+              <input name="collegeName" type="text" placeholder="WCE" class="username">             
                <label for="username">Contact No.</label>
-              <input type="text" placeholder="Contact Number" class="username">
+              <input name="contact" type="text" placeholder="Contact Number" class="username">
               <label for="cars" class="username">Year of Studying:</label>
 
-                  <select class="select-me" name="cars" id="cars">
-                    <option class="option" value="volvo">1st Year</option>
-                    <option value="saab">2nd Year</option>
-                    <option value="mercedes">3rd Year</option>
-                    <option value="audi">4th Year</option>
+                  <select class="select-me" name="yearOfStudy" id="cars">
+                    <option class="option" value="1st Year">1st Year</option>
+                    <option value="2nd Year">2nd Year</option>
+                    <option value="3rd Year">3rd Year</option>
+                    <option value="4th Year">4th Year</option>
 
 
                   </select>
 
                 <label for="cars" class="username optionText" >Your Choice:</label>
-                  <select class="select-me" id="topic" name="cars" class="cars" onchange="fun();">
+                  <select class="select-me" id="topic" name="choice" class="cars" onchange="fun();">
                     <option value="go">Go</option>
                     <option value="docker">Docker</option>
                     <option value="both">Both</option>
                   </select>
                   <div id="qrImage">
-                    <img src="mainDocker.png" class="qr-style"/>
+                    <img src="pp199.png" class="qr-style"/>
                   </div>
 
                   <label for="cars" class="username">Do you have dual booted laptops?:</br>(Not Mandatory)</label>
-                  <select class="select-me" name="cars" class="cars">
-                    <option value="go" class="optionText">Yes</option>
-                    <option value="docker" class="optionText">No</option>
+                  <select class="select-me" name="bootedLaptops" class="cars">
+                    <option value="true" class="optionText">Yes</option>
+                    <option value="false" class="optionText">No</option>
                   </select>
                   <label for="username">Payment Id</label>
-                  <input type="text" placeholder="Payment Id" class="username">             
+                  <input name="paymentID" type="text" placeholder="Payment Id" class="username">             
               <button class="registerBtn">Register</button>
               <!-- <div class="social">
                 <div class="go"><i class="fab fa-google"></i>  Google</div>
@@ -282,18 +282,18 @@
          if(opt === 'docker')
          {
             let img = document.getElementById('qrImage');
-            img.innerHTML = `<img src="mainDocker.png" class="qr-style"/>`
+            img.innerHTML = `<img src="pp199.png" class="qr-style"/>`
             
          }
          else  if(opt === 'go')
          {
           let img = document.getElementById('qrImage');
-            img.innerHTML = `<img src="qr.png" class="qr-style"/>`
+            img.innerHTML = `<img src="pp199.png" class="qr-style"/>`
          }
          else
          {
           let img = document.getElementById('qrImage');
-            img.innerHTML = `<img src="go1.png" class="qr-style"/>`
+            img.innerHTML = `<img src="pp299.png" class="qr-style"/>`
          }
         }
      </script>
