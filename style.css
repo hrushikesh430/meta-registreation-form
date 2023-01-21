@@ -819,6 +819,11 @@ a {
   text-decoration: none;
 }
 
+#referhere {
+  color: rgb(46, 46, 255);
+  text-decoration: underline;
+}
+
 h1, h2 {
   color: white;
   font-family: 'Oswald', sans-serif;
