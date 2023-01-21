@@ -806,7 +806,7 @@ span {
   /* width: 33px; */
   margin: 0 auto;
   position: absolute;
-  
+  z-index: 101;
   text-align: center;
   /* right: 0; */
   -webkit-transform: translateY(-50%);
@@ -1680,7 +1680,7 @@ button{
 
 .modal-content{
   backdrop-filter: blur(10px);
-  background-color: transparent;
+  background-color: white;
   border: 0.5px grey;
   z-index: 99999999;
 }
