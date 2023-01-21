@@ -872,6 +872,7 @@ h2 {
 }
 #register{
   color: #aaa;
+  z-index: 999 !important;
 }
 
 .three {
@@ -1081,6 +1082,7 @@ h2 {
   align-items: center;
   margin: auto;
   background: linear-gradient(to right, #0b0028, #2e012a);
+  scroll-behavior: smooth;
   /* background-repeat: no-repeat; */
   /* background-attachment: fixed; */
   /* background-size: cover; */
@@ -1676,3 +1678,32 @@ button{
  
 }
 
+.modal-content{
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+  border: 0.5px grey;
+  z-index: 99999999;
+}
+
+.choiceContainer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.choiceContainer input{
+  width: 1em;
+}
+
+
+.choiceContainer label{
+  margin: 0 0.5em !important;
+}
+
+.backGround{
+  position: fixed;
+    top: 50%;
+    right: 50%;
+    z-index: 9999999;
+    background-color: black 0.5;
+}
