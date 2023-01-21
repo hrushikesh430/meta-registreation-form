@@ -102,7 +102,7 @@ form{
   height: 100%;
 }
 .reg-form{
-  height: 1200px !important;
+  height: 1280px !important;
   margin-top: 200px;
   /* margin-bottom: 300px; */
   width: 30rem;
@@ -871,6 +871,7 @@ h2 {
 
 }
 #register{
+
   color: #aaa;
   z-index: 999 !important;
 }
