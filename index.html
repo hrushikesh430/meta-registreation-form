@@ -192,13 +192,14 @@
               <h3 style="color: white;" class="register-title">Register Now</h3>
       
               <label for="username">Full Name</label>
-              <input name="name" type="text" placeholder="Name" class="username">
+              <input name="name" type="text" placeholder="Name" class="username" required>
               <label for="username">Email</label>
-              <input name="email" type="text" placeholder="Email" class="username">
+              <input name="email" type="email" placeholder="Email" class="username" required>
               <label for="username">College Name</label>
-              <input name="collegeName" type="text" placeholder="WCE" class="username">             
+              <input name="collegeName" type="text" placeholder="WCE" class="username" required>             
                <label for="username">Contact No.</label>
-              <input name="contact" type="text" placeholder="Contact Number" class="username">
+              <input name="contact" type="number" style="  -webkit-appearance: none;
+  margin: 0;" placeholder="Contact Number" class="username" required>
               <label for="cars" class="username">Year of Studying:</label>
 
                   <select class="select-me" name="yearOfStudy" id="cars">
@@ -226,7 +227,7 @@
                     <option value="false" class="optionText">No</option>
                   </select>
                   <label for="username">Payment Id</label>
-                  <input name="paymentID" type="text" placeholder="Payment Id" class="username">             
+                  <input name="paymentID" type="text" placeholder="Payment Id" class="username" required>             
               <button class="registerBtn">Register</button>
               <!-- <div class="social">
                 <div class="go"><i class="fab fa-google"></i>  Google</div>
