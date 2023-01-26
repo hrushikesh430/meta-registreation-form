@@ -242,9 +242,10 @@
       <hr class="line" />
       <!-- reegistration form -->
       <div class="register-container" id="register">
-        <form class="reg-form" action="https://meta2k23backend-production.up.railway.app/register" method="POST">
+        <form class="reg-form"  action="https://meta2k23backend-production.up.railway.app/register" method="POST">
           <h3 style="color: white;" class="register-title" >Register Now</h3>
-          <div id="innerDiv">
+          <p style="color: red; align-items:center;align-text :center;margin-top:60px" class="register-title">*The registration has been temporarily closed.</p>
+        <!--   <div id="innerDiv">
             <label for="username">Full Name</label>
             <input name="name" type="text" placeholder="Name" class="username" required>
             <label for="username">Email</label>
@@ -264,19 +265,13 @@
 
 
             </select>
-            <!-- your choice-->
-            <!-- <label for="cars" class="username optionText">Your Choice:</label>
-          <select class="select-me" id="topic" name="choice" class="cars" onchange="fun();">
-            <option value="go">Go</option>
-            <option value="docker">Docker</option>
-            <option value="both">Both</option>
-          </select> -->
+       
 
           <label for="username">Preferred Tech</label>
           <label id="suggestion" style="color: red;display: none;">Refresh the page to change your preference</label>
             <input name="choice" type="text" placeholder="No Choice Selected" onclick="Show()" class="username" required autocomplete="off" id="yourChoice" readonly>
 
-            <!-- Qr code Image -->
+            
             <div id="qrImage">
               <img src="pp299.png" class="qr-style" />
             </div>
@@ -291,11 +286,8 @@
               required>
             <button class="registerBtn">Register</button>
           </div>
-          <!-- <div class="social">
-                <div class="go"><i class="fab fa-google"></i>  Google</div>
-                <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
-              </div> -->
-        </form>
+        -->
+        </form> 
 
       </div>
 
